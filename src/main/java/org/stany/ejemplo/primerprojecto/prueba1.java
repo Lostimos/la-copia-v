@@ -5,17 +5,22 @@
  */
 package org.stany.ejemplo.primerprojecto;
 
+import java.io.IOException;
+
+
 /**
  *
  * @author stany
  */
-public class Main {
+public class prueba1 {
 
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
-    public static void main(String[] args) {
-        System.out.println("Hola  Mundo :) ");
+    public static void main(String[] args) throws IOException {
+       prueba pru = new prueba();
+       pru.SepararNumeros("");
     }
     
 }
